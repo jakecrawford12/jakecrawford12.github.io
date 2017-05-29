@@ -1,34 +1,28 @@
 {
-  "name": "premier-social-website",
-  "version": "1.0.0",
-  "description": "premier social website",
-  "scripts": {
-    "set:dev": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js dev",
-    "set:prod": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js prod",
-    "start": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "agency",
+  "title": "Agency",
+  "version": "3.3.7+1",
+  "homepage": "http://startbootstrap.com/template-overviews/agency",
+  "author": "Start Bootstrap",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "jquery": "^1.11.3"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakecrawford12/jakecrawford12.github.io.git"
-  },
-  "keywords": [
-    "social"
-  ],
-  "author": "Premier Social",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jakecrawford12/jakecrawford12.github.io/issues",
-    "email": "jakecrawford869@gmail.com"
-  },
-  "homepage": "https://github.com/jakecrawford12/jakecrawford12.github.io#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-concat-css": "^2.3.0",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-html-replace": "^1.6.2",
-    "gulp-open": "^2.0.0",
-    "gulp-uglify": "^3.0.0"
+    "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
   }
 }
