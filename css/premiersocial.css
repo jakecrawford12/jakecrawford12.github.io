@@ -156,10 +156,12 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    color: white; }
+    color: #fed136; }
     .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
       color: #fed136;
       outline: none; }
+  .navbar-custom .nav li a:hover {
+    color: #fec503; }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 0;
     color: white;
@@ -193,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 1.5em; } }
 
 header {
-  background-image: url("../img/iphone.jpeg");
+  background-image: url("../img/home.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

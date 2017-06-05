@@ -9,7 +9,7 @@
     "start": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js open",
     "test": "echo \"Error: no test specified\" && exit 1",
     "update": "npm update && node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js copy",
-    "dev": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js dev",
+    "watch": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js watch",
     "prod" : "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js prod"
   },
   "repository": {

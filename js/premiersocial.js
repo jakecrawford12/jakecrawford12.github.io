@@ -28,7 +28,7 @@
     // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
-            top: 100
+            top: -1 // how far until background of nav appears, always in this case
         }
     })
 

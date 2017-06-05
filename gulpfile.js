@@ -78,7 +78,7 @@ gulp.task('browserSync', function() {
 })
 
 // Dev task with browserSync
-gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() {
+gulp.task('watch', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() {
     gulp.watch('sass/*.sass', ['sass']);
     gulp.watch('css/*.css', ['minify-css']);
     gulp.watch('js/*.js', ['minify-js']);

@@ -113,12 +113,16 @@ h1, h2, h3, h4, h5, h6 {
                 @include heading-font;
                 font-weight: 400;
                 letter-spacing: 1px;
-                color: white;
+                color: $theme-primary;
                 &:hover,
                 &:focus {
                     color: $theme-primary;
                     outline: none;
                 }
+            }
+
+            a:hover {
+                color: darken($theme-primary, 10%);
             }
         }
     }
@@ -167,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../img/iphone.jpeg');
+    background-image: url('../img/home.jpeg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
