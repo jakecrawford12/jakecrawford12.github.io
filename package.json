@@ -1,28 +1,39 @@
 {
-  "name": "agency",
-  "title": "Agency",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/agency",
-  "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+  "name": "premier-social-website",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Premier Social",
+  "description": "premier social website",
+  "homepage": "https://jakecrawford12.github.io/",
+  "scripts": {
+    "start": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "npm update && node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js copy",
+    "dev": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js dev",
+    "prod" : "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakecrawford12/jakecrawford12.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jakecrawford12/jakecrawford12.github.io/issues",
+    "email": "jakecrawford22@gmail.com"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3",
+    "jquery": "^1.11.3"
   },
   "devDependencies": {
-    "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
-    "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.10",
     "gulp-header": "^1.8.7",
     "gulp-less": "^3.1.0",
+    "gulp-open": "^2.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+    "gulp-uglify": "^1.5.4"
   }
 }
