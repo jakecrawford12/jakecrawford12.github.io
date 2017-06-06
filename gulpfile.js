@@ -12,7 +12,7 @@ var pkg = require('./package.json');
 var banner = ['/*!\n',
     ' * Premier Social Website - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
     ' * Copyright ' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
-    ' * Licensed under <%= pkg.license %>',
+    ' * Licensed under <%= pkg.license %> (https://github.com/jakecrawford12/jakecrawford12.github.io/blob/master/LICENSE)',
     ' */\n',
     ''
 ].join('');
