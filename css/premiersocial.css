@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 1.5em; } }
 
 header {
-  background-image: url("../img/home.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -243,6 +243,7 @@ header {
 section {
   padding: 100px 0; }
   section h2.section-heading {
+    color: white;
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px; }
@@ -258,9 +259,19 @@ section {
   section {
     padding: 150px 0; } }
 
+#services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/services.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .service-heading {
+  color: white;
   margin: 15px 0;
   text-transform: none; }
+
+.services-description {
+  color: white;
+  font-weight: bold; }
 
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -469,7 +480,7 @@ aside.clients img {
 
 section#contact {
   background-color: #222222;
-  background-image: url("../img/map-image.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), "../img/map-image.png";
   background-position: center;
   background-repeat: no-repeat; }
   section#contact .section-heading {
